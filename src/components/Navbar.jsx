@@ -13,13 +13,9 @@ function Navbar() {
 
             {/* Main Navbar */}
             <div className="h-16 w-full flex justify-between items-center px-6 lg:px-20">
-
-                {/* Logo */}
                 <div>
                     <img src={logo} alt="logo" className="h-7" />
                 </div>
-
-                {/* Desktop Navigation */}
                 <div className="text-sm hover:cursor-pointer hidden lg:flex flex-row gap-16 items-center">
 
                     <Link to="/destination" className="hover:text-orange-500">Destination</Link>
@@ -28,7 +24,7 @@ function Navbar() {
                     <Link to="/bookings" className="hover:text-orange-500">Bookings</Link>
                     <Link to="/login" className="hover:text-orange-500">Login</Link>
 
-                    <button className="border-black border-2 rounded-md px-4 py-2">
+                    <button className="border-black border-2 rounded-md px-4 py-2 hover:text-white hover:bg-orange-500 hover:border-white">
                         Sign Up
                     </button>
 
@@ -41,7 +37,7 @@ function Navbar() {
 
                 {/* Mobile Hamburger */}
                 <button onClick={() => setIsOpen(!isOpen)} className="lg:hidden">
-                    <img src={hamburger} alt="hamburger" className="h-4" />
+                    <img src={hamburger} alt="hamburger" className="h-8" />
                 </button>
 
             </div>
@@ -71,7 +67,7 @@ function Navbar() {
                         Login
                     </Link>
 
-                    <button className="border-black border-2 rounded-md px-4 py-2">
+                    <button className="border-black border-2 rounded-md px-4 py-2  hover:text-white hover:bg-orange-500 hover:border-white">
                         Sign Up
                     </button>
 
