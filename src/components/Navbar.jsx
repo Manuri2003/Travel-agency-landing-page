@@ -12,9 +12,9 @@ function Navbar() {
         <div className="w-full">
 
             {/* Main Navbar */}
-            <div className="h-16 w-full flex justify-between items-center px-6 lg:px-20">
+            <div className="h-16 w-full flex justify-between items-center px-6 lg:px-20 text-extrabold text-black">
                 <div>
-                    <img src={logo} alt="logo" className="h-7" />
+                    <img src={logo} alt="logo" className="h-8" />
                 </div>
                 <div className="text-sm hover:cursor-pointer hidden lg:flex flex-row gap-16 items-center">
 
